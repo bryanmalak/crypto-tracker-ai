@@ -1,7 +1,7 @@
 Crypto Insight: AI-Powered Price Tracker
 
 Overview
-Crypto Insight is a web application that predicts cryptocurrency prices using machine learning. It fetches real-time data and applies a linear regression model to forecast short-term trends.
+Crypto Insight is a web application I developed that predicts cryptocurrency prices using machine learning. It fetches real-time data and applies a linear regression model to forecast short-term trends.
 
 Features
 Real-time Data Fetching: Pulls cryptocurrency prices from the CoinGecko API.
