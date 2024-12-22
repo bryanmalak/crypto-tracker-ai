@@ -15,20 +15,25 @@ Prepares data for training and testing a linear regression model.
 Predicts future prices and evaluates model performance using MSE and R².
 Returns the results in JSON format via an API endpoint.
 Installation
+
 1. Clone the Repository:
 
 git clone <repo-url>
 cd crypto-tracker-ai
+
 2. Create a Virtual Environment:
 
 python3.12 -m venv venv
 source venv/bin/activate
+
 3. Install Dependencies:
 
 pip install -r requirements.txt
+
 4. Run the Flask App:
 
 python app.py
+
 Usage
 Open the app in your browser:
 http://127.0.0.1:5000/
