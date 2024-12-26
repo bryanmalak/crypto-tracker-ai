@@ -1,9 +1,11 @@
-Crypto Insight: AI-Powered Price Tracker
+# Crypto Insight: AI-Powered Price Tracker
 
-Overview
+## Overview
+
 Crypto Insight is a web application I developed that predicts cryptocurrency prices using machine learning. It fetches real-time data and applies a linear regression model to forecast short-term trends.
 
-Features
+## Features
+
 Real-time Data Fetching: Pulls cryptocurrency prices from the CoinGecko API.
 Machine Learning Predictions: Uses Linear Regression to predict future prices.
 Performance Metrics: Provides MSE (Mean Squared Error) and R² (R-squared) for model accuracy.
@@ -15,12 +17,12 @@ Prepares data for training and testing a linear regression model.
 Predicts future prices and evaluates model performance using MSE and R².
 Returns the results in JSON format via an API endpoint.
 
-Demo 
+## Demo 
 
 <img width="925" alt="image" src="https://github.com/user-attachments/assets/685844e3-7d9f-4323-8c74-02aee372c49a" />
 
 
-Installation
+## Installation
 
 1. Clone the Repository:
 
@@ -40,7 +42,7 @@ pip install -r requirements.txt
 
 python app.py
 
-Usage
+## Usage
 Open the app in your browser:
 http://127.0.0.1:5000/
 Access predictions:
