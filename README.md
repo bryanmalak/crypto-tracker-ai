@@ -16,6 +16,7 @@ Predicts future prices and evaluates model performance using MSE and R².
 Returns the results in JSON format via an API endpoint.
 
 Demo 
+
 <img width="925" alt="image" src="https://github.com/user-attachments/assets/685844e3-7d9f-4323-8c74-02aee372c49a" />
 
 
