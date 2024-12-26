@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Prediction Results</title>
+</head>
+<body>
+    <h1>Crypto Prediction Results</h1>
+
+    <!-- Display the chart -->
+    <h2>Actual vs Predicted Prices</h2>
+    <img src="{{ chart_url }}" alt="Prediction Chart" />
+
+    <!-- Display metrics -->
+    <h2>Model Performance:</h2>
+    <p><strong>Mean Squared Error (MSE):</strong> {{ mse }}</p>
+    <p><strong>R² Score:</strong> {{ r2 }}</p>
+
+    <!-- Display predictions -->
+    <h2>Predictions:</h2>
+    <ul>
+        {% for prediction in predictions %}
+            <li>{{ prediction }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
