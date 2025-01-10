@@ -29,7 +29,7 @@ Returns the results in JSON format via an API endpoint.
 git clone <repo-url>
 cd crypto-tracker-ai
 
-2. Create a Virtual Environment:
+2. Create a Virtual Environment: 
 
 python3.12 -m venv venv
 source venv/bin/activate
