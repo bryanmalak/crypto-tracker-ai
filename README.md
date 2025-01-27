@@ -49,7 +49,7 @@ Access predictions:
 http://127.0.0.1:5000/predict?crypto=bitcoin
 Replace bitcoin with any supported cryptocurrency.
 
-Why It's Good
+Why It's Good?
 Accurate Predictions: Uses proven ML algorithms to predict trends.
 Easy to Use: RESTful API endpoints for seamless integration.
 Customizable: Extendable to support additional features like graphs, alerts, and portfolio tracking.
